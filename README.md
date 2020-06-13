@@ -10,4 +10,4 @@ In the example shown, a given investment strategy has the following payoffs:
 
 Given repeated bets, optimal Kelly Criterion betting is to bet 81% of your bankroll (see chart).
 
-![Kelly Criterion optimal betting](Kelly betting.png)
+![Kelly Criterion optimal betting](https://github.com/jensolson/Kelly-Criterion-optimal-betting/blob/master/Kelly%20betting.png)

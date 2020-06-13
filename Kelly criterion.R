@@ -36,7 +36,6 @@ plot(f_plots, res_plots,
                 "Optimal f* =", round(o$maximum, 4)),
      xlab="Fraction of bankroll bet",
      ylab="Cost function (Shannon entropy)",
-     log="",
      frame.plot=F, pch=1, col="dark blue")
 
 abline(v=c(0, o$maximum), col=c("black", "red"),

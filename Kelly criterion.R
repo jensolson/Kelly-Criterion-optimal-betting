@@ -56,3 +56,4 @@ if (o$maximum < 0) {
           col=shade,
           border=F)
 }
+

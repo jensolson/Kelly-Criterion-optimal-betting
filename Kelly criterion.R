@@ -22,15 +22,17 @@ shanEnt <- function(prbs, pays, fStar) {
   return(ent)
 }
 
+# Find optimal bet size
 o <- optimize(f=shanEnt, prbs=probs, pays=payoffs,
               interval=c(lo, hi), maximum=T)
 
 res <- mapply(shanEnt, list(probs), list(payoffs), fs)
 
-#Exclude extreme values from plot
+# Exclude extreme values from plot
 f_plots <- fs[2:(length(fs)-1)]
 res_plots <- res[2:(length(fs)-1)]
 
+# Plot results
 plot(f_plots, res_plots,
      main=paste("Kelly Criterion payoffs\n",
                 "Optimal f* =", round(o$maximum, 4)),

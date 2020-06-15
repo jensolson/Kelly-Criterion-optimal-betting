@@ -1,4 +1,4 @@
-# Kelly-Criterion-optimal-betting
+# Kelly Criterion optimal betting
 Calculates Kelly Criterion optimal bet size given vectors of probabilities and payoffs
 
 In the example shown, a given investment strategy has the following payoffs:

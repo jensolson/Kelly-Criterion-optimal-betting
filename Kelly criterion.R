@@ -1,6 +1,3 @@
-# Jens Olson
-# jens.olson@gmail.com
-
 # Input payoffs as returns on capital invested
 payoffs <- c(-.4, -.2, .0, .25, .45)
 
